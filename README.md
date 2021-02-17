@@ -5,7 +5,7 @@ You can use it to take screenshots for testing or monitoring service
 
 ## Version para phantomjs 64Bits
 ```sh
-    $ cd vendor/cpdrenato/screen-64bits/bin/
+    $ cd vendor/cpdrenato/screen/bin/
     $ file phantomjs
     $ ./phantomjs
 ```
@@ -15,7 +15,7 @@ You can use it to take screenshots for testing or monitoring service
 Via Composer
 
 ``` bash
-$ composer require cpdrenato/screen-64bits
+$ composer require cpdrenato/screen
 ```
 
 If on any unix system, you need to make the `bin` executable `chmod +x /path/to/screen/bin/phantomjs`
