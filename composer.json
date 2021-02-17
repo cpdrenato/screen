@@ -1,6 +1,6 @@
 {
-  "name": "cpdrenato/screen-64bits",
-  "description": "A PHP Class to interact with PhantomJs and capture screenshot of a webpage",
+  "name": "cpdrenato/screen",
+  "description": "A PHP Class to interact with PhantomJs and capture screenshot 64bits",
   "keywords": [
     "phantomjs",
     "screen",
