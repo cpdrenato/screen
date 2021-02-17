@@ -4,14 +4,18 @@ Web site screenshot tool based on PHP and [PhantomJS](http://phantomjs.org/ "")
 You can use it to take screenshots for testing or monitoring service
 
 ## Version para phantomjs 64Bits
+```sh
+    $ cd vendor/cpdrenato/screen-64bits/bin/
+    $ file phantomjs
+    $ ./phantomjs
+```
 
 ## Install
 
 Via Composer
 
 ``` bash
-$ sudo apt-get install -y php7.2-bz2 OR sudo apt-get install -y php7.4-bz2
-$ composer require cpdrenato/screen
+$ composer require cpdrenato/screen-64bits
 ```
 
 If on any unix system, you need to make the `bin` executable `chmod +x /path/to/screen/bin/phantomjs`
@@ -20,6 +24,7 @@ The directory `/path/to/screen/jobs` must be writeble as well.
 
 ## Linux requirements
 
+ * php-bz2 - `apt-get install -y php7.2-bz2` OR `apt-get install -y php7.4-bz2`
  * FontConfig -  `apt-get/yum install fontconfig`
  * FreeType - `apt-get/yum install freetype*`
 
@@ -171,3 +176,10 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 Thanks to the [PhantomJS](http://phantomjs.org/ "Headless browser") ([LICENSE](https://github.com/ariya/phantomjs/blob/master/LICENSE.BSD)) guys for creating their awesome WebKit scripting interface.
 
 This tool was originally created to take screenshots for [Microweber](http://microweber.com/ "Open Source CMS")
+
+## Fontes - add - 17/02/2021
+- https://packagist.org/packages/cpdrenato/screen-64bits
+- https://github.com/cpdrenato/screen-64bits
+- https://packagist.org/packages/microweber/screen
+- https://github.com/microweber/screen
+- https://packagist.org/packages/jakoch/phantomjs-installer
