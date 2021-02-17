@@ -178,8 +178,8 @@ Thanks to the [PhantomJS](http://phantomjs.org/ "Headless browser") ([LICENSE](h
 This tool was originally created to take screenshots for [Microweber](http://microweber.com/ "Open Source CMS")
 
 ## Fontes - add - 17/02/2021
-- https://packagist.org/packages/cpdrenato/screen-64bits
-- https://github.com/cpdrenato/screen-64bits
+- https://packagist.org/packages/cpdrenato/screen
+- https://github.com/cpdrenato/screen
 - https://packagist.org/packages/microweber/screen
 - https://github.com/microweber/screen
 - https://packagist.org/packages/jakoch/phantomjs-installer
